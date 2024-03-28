@@ -2,29 +2,38 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./Assets/CSS/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap">
         <title> My First Blog </title>
     </head>
+    
 
     <body>
+      <span class="line"></span>
         <div class="userform">
           <header class ="header">
+            <!--Title-->
                <h1>My First Blog</h1>
+               <!--Heart Image-->
+               <div id="heart"></div>
           </header>
-            <form>
-               <ul>  
-                 <li>           
-                       <label for="username"> Username:</label>
-                       <input type="text" id="username"><br><br>
+          <span class="vertical-line"></span>
+            <form class="move-left">
+               <ul id="info">  
+                <!--User Information With Text Box-->
+
+                <li>           
+                       <label for="username">Username:</label>
+                       <input type="text" id="username" style="background-color: #a20054d6;"><br><br>
                        <label for="title"> Title:</label>
-                       <input type="text" id="title"><br><br>
+                       <input type="text" id="title" style=" background-color: #a20054d6;"><br><br>
                        <label for="content"> Content:</label>
-                       <textarea type="text" id="content" rows="4"
+                       <textarea type="text" id="content" style=" background-color: #a20054d6;" rows="4"
                        cols="50"></textarea><br><br>
                  </li>  
               </ul> 
-              <button id="submit">Submit</button>"
+              <!--Submit Button-->
+              <button id="submit">Submit</button>
           </form>
         </div>
         <script src="./Assets/JS/script.js"></script>
