@@ -36,6 +36,9 @@ THEN I am presented with a link to the developer's portfolio.
 
 
 ## Link to Deployed application
+https://github.com/CrystalC19/04Personal-Blog.git
+https://crystalc19.github.io/04Personal-Blog/index.html
+
 
 
 
